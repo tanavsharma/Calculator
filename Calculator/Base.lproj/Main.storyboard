@@ -57,7 +57,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                                        <state key="normal" title="⌫ "/>
+                                                        <state key="normal" title="AC">
+                                                            <color key="titleColor" red="0.32156862749999998" green="0.77647058820000003" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -66,7 +68,9 @@
                                                         <rect key="frame" x="105.5" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="±"/>
+                                                        <state key="normal" title="±">
+                                                            <color key="titleColor" red="0.32156862749999998" green="0.77647058820000003" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -75,7 +79,9 @@
                                                         <rect key="frame" x="211" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="%"/>
+                                                        <state key="normal" title="%">
+                                                            <color key="titleColor" red="0.32156862749999998" green="0.77647058820000003" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -84,7 +90,9 @@
                                                         <rect key="frame" x="316.5" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="÷"/>
+                                                        <state key="normal" title="÷">
+                                                            <color key="titleColor" red="0.61176470589999998" green="0.31372549020000001" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -98,7 +106,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="97.5" height="115"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="7"/>
+                                                        <state key="normal" title="7">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -107,7 +117,9 @@
                                                         <rect key="frame" x="105.5" y="0.0" width="97.5" height="115"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="8"/>
+                                                        <state key="normal" title="8">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -116,7 +128,9 @@
                                                         <rect key="frame" x="211" y="0.0" width="97.5" height="115"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="9"/>
+                                                        <state key="normal" title="9">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -125,7 +139,9 @@
                                                         <rect key="frame" x="316.5" y="0.0" width="97.5" height="115"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="×"/>
+                                                        <state key="normal" title="×">
+                                                            <color key="titleColor" red="0.61176470589999998" green="0.31372549020000001" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -139,7 +155,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="4"/>
+                                                        <state key="normal" title="4">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -148,7 +166,9 @@
                                                         <rect key="frame" x="105.5" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="5"/>
+                                                        <state key="normal" title="5">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -157,7 +177,9 @@
                                                         <rect key="frame" x="211" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="6"/>
+                                                        <state key="normal" title="6">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -166,7 +188,9 @@
                                                         <rect key="frame" x="316.5" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="+"/>
+                                                        <state key="normal" title="+">
+                                                            <color key="titleColor" red="0.61176470589999998" green="0.31372549020000001" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -180,7 +204,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="97.5" height="115"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="1"/>
+                                                        <state key="normal" title="1">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -189,7 +215,9 @@
                                                         <rect key="frame" x="105.5" y="0.0" width="97.5" height="115"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="2"/>
+                                                        <state key="normal" title="2">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -198,7 +226,9 @@
                                                         <rect key="frame" x="211" y="0.0" width="97.5" height="115"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="3"/>
+                                                        <state key="normal" title="3">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -207,7 +237,9 @@
                                                         <rect key="frame" x="316.5" y="0.0" width="97.5" height="115"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="-"/>
+                                                        <state key="normal" title="-">
+                                                            <color key="titleColor" red="0.61176470589999998" green="0.31372549020000001" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -221,7 +253,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="AC"/>
+                                                        <state key="normal" title="⌫ "/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -230,7 +262,9 @@
                                                         <rect key="frame" x="105.5" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="0"/>
+                                                        <state key="normal" title="0">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -239,7 +273,9 @@
                                                         <rect key="frame" x="211" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="."/>
+                                                        <state key="normal" title=".">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
@@ -248,7 +284,9 @@
                                                         <rect key="frame" x="316.5" y="0.0" width="97.5" height="114.5"/>
                                                         <color key="backgroundColor" red="0.13725490200000001" green="0.1450980392" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                        <state key="normal" title="="/>
+                                                        <state key="normal" title="=">
+                                                            <color key="titleColor" red="0.61176470589999998" green="0.31372549020000001" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
