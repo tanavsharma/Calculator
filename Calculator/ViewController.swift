@@ -57,11 +57,14 @@ class ViewController: UIViewController {
     @IBAction func plusMinus(_ sender: Any) {
         function = ""
         addtoComputations(value: "-")
+        
     }
     
     @IBAction func percent(_ sender: Any) {
-        //function = "%"
+        function = "%"
         addtoComputations(value: "%")
+        first = userInput
+        userInput = ""
     }
     
     @IBAction func decimal(_ sender: Any) {
@@ -69,10 +72,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func backSpace(_ sender: Any) {
+        
         if(!computations.isEmpty){
             computations.removeLast()
             computationsLabel.text = computations
-            
         }else if(!userInput.isEmpty){
             userInput.removeLast()
             computationsLabel.text = computations
@@ -129,7 +132,15 @@ class ViewController: UIViewController {
         }else if(function == "*"){
             results = firstInput * secondInput
             resultsLabel.text = String(results)
+        }else if(function == "÷"){
+            results = firstInput / secondInput
+            resultsLabel.text = String(results)
+        }else if(function == "%"){
+            second = String(100)
+            results = firstInput / Double(second)!
+            resultsLabel.text = String(results)
         }
+        
         
     }
     
