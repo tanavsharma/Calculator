@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     var function = ""
     var userInput = ""
     var results = 0.0
+    var percentOne = 100.00
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,6 +66,8 @@ class ViewController: UIViewController {
         addtoComputations(value: "%")
         first = userInput
         userInput = ""
+        
+        
     }
     
     @IBAction func decimal(_ sender: Any) {
@@ -72,16 +75,20 @@ class ViewController: UIViewController {
     }
     
     @IBAction func backSpace(_ sender: Any) {
-        
+        print("Jindy ---> "+userInput)
         if(!computations.isEmpty){
             computations.removeLast()
-            computationsLabel.text = computations
-        }else if(!userInput.isEmpty){
-            userInput.removeLast()
+            if(!userInput.isEmpty){
+                userInput.removeLast()
+                computationsLabel.text = computations
+            }else{
+                computationsLabel.text = computations
+            }
             computationsLabel.text = computations
         }else if(!function.isEmpty){
             function.removeLast()
             computationsLabel.text = computations
+            
         }
     }
     
@@ -117,6 +124,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func equals(_ sender: Any) {
+        
         second = userInput
         var firstInput = 0.0
         var secondInput = 0.0
@@ -134,10 +142,6 @@ class ViewController: UIViewController {
             resultsLabel.text = String(results)
         }else if(function == "÷"){
             results = firstInput / secondInput
-            resultsLabel.text = String(results)
-        }else if(function == "%"){
-            second = String(100)
-            results = firstInput / Double(second)!
             resultsLabel.text = String(results)
         }
         
