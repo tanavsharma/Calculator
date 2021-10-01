@@ -29,6 +29,9 @@ class ViewController: UIViewController {
     var userInput = ""
     var results = 0.0
     var percentOne = 100.00
+    var firstInput = 0.0
+    var secondInput = 0.0
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,11 +74,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func decimal(_ sender: Any) {
+        userInput += "."
         addtoComputations(value: ".")
     }
     
     @IBAction func backSpace(_ sender: Any) {
-        print("Jindy ---> "+userInput)
         if(!computations.isEmpty){
             computations.removeLast()
             if(!userInput.isEmpty){
@@ -88,7 +91,6 @@ class ViewController: UIViewController {
         }else if(!function.isEmpty){
             function.removeLast()
             computationsLabel.text = computations
-            
         }
     }
     
@@ -125,25 +127,36 @@ class ViewController: UIViewController {
     
     @IBAction func equals(_ sender: Any) {
         
-        second = userInput
-        var firstInput = 0.0
-        var secondInput = 0.0
-        firstInput = Double(first)!
-        secondInput = Double(second)!
-        
-        if(function == "+"){
-            results = firstInput + secondInput
+        if(function == "+" || function == "-" || function == "÷" || function == "*"){
+            second = userInput
+            firstInput = Double(first)!
+            secondInput = Double(second)!
+            
+            if(function == "+"){
+                results = firstInput + secondInput
+                resultsLabel.text = String(results)
+                
+            }else if(function == "-"){
+                results = firstInput - secondInput
+                resultsLabel.text = String(results)
+                
+            }else if(function == "*"){
+                results = firstInput * secondInput
+                resultsLabel.text = String(results)
+                
+            }else if(function == "÷"){
+                results = firstInput / secondInput
+                resultsLabel.text = String(results)
+                
+            }
+            
+        }else if(function == "%"){
+            firstInput = Double(first)!
+            results = firstInput / 100
             resultsLabel.text = String(results)
-        }else if(function == "-"){
-            results = firstInput - secondInput
-            resultsLabel.text = String(results)
-        }else if(function == "*"){
-            results = firstInput * secondInput
-            resultsLabel.text = String(results)
-        }else if(function == "÷"){
-            results = firstInput / secondInput
-            resultsLabel.text = String(results)
+            
         }
+        
         
         
     }
