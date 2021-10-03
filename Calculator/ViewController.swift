@@ -42,8 +42,26 @@ class ViewController: UIViewController {
      * which is passed when a user taps a button.
      */
     func addtoComputations(value: String){
-        computations = computations + value // value being the button pushed by user.
-        computationsLabel.text = computations
+        let cnt = (computationsLabel.text?.count)!
+        
+        if cnt <= 20{
+            computations = computations + value // value being the button pushed by user.
+            computationsLabel.text = computations
+        }else{
+            let alert = UIAlertController(title: "Number Limit Reached", message: "You have reached the limit of numbers. Would you like to clear?", preferredStyle: .alert)
+
+            alert.addAction(UIAlertAction(title: "Clear Calculator", style: .default, handler:{ action in
+                self.computations = ""
+                self.computationsLabel.text = ""
+                self.userInput = ""
+                self.resultsLabel.text = ""
+                                          }))
+            alert.addAction(UIAlertAction(title: "Do Not Clear!", style: .cancel, handler: nil))
+
+            self.present(alert, animated: true)
+        }
+        
+        
     }
 
     
@@ -59,7 +77,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func plusMinus(_ sender: Any) {
-        function = ""
+        function = "-"
         addtoComputations(value: "-")
         
     }
@@ -135,19 +153,23 @@ class ViewController: UIViewController {
             if(function == "+"){
                 results = firstInput + secondInput
                 resultsLabel.text = String(results)
-                
+                userInput = ""
+                userInput = String(results)
             }else if(function == "-"){
                 results = firstInput - secondInput
                 resultsLabel.text = String(results)
-                
+                userInput = ""
+                userInput = String(results)
             }else if(function == "*"){
                 results = firstInput * secondInput
                 resultsLabel.text = String(results)
-                
+                userInput = ""
+                userInput = String(results)
             }else if(function == "÷"){
                 results = firstInput / secondInput
                 resultsLabel.text = String(results)
-                
+                userInput = ""
+                userInput = String(results)
             }
             
         }else if(function == "%"){
