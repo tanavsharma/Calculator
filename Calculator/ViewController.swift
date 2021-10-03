@@ -42,7 +42,14 @@ class ViewController: UIViewController {
      * which is passed when a user taps a button.
      */
     func addtoComputations(value: String){
-        let cnt = (computationsLabel.text?.count)!
+        let cnt = (computationsLabel.text?.count)! // getting the length of the string
+        
+        /* if loop which checks if the length of the string is less than or equal to 20
+         * continue to update the computationsLabel else if the string exceeds 20 than
+         * display an alert, prompting the user to either clear the calculator to continue
+         * or to not clear the calculator. If the user selects "Clear Calculator" then it will
+         * reset all the labels and reset all the variables.
+         */
         
         if cnt <= 20{
             computations = computations + value // value being the button pushed by user.
@@ -51,8 +58,8 @@ class ViewController: UIViewController {
             let alert = UIAlertController(title: "Number Limit Reached", message: "You have reached the limit of numbers. Would you like to clear?", preferredStyle: .alert)
 
             alert.addAction(UIAlertAction(title: "Clear Calculator", style: .default, handler:{ action in
-                self.computations = ""
-                self.computationsLabel.text = ""
+                self.computations = "0.0"
+                self.computationsLabel.text = "0.0"
                 self.userInput = ""
                 self.resultsLabel.text = ""
                                           }))
@@ -60,8 +67,6 @@ class ViewController: UIViewController {
 
             self.present(alert, animated: true)
         }
-        
-        
     }
 
     
@@ -82,6 +87,11 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func plusTap(_ sender: Any) {
+        function = ""
+        addtoComputations(value: "")
+    }
+    
     @IBAction func percent(_ sender: Any) {
         function = "%"
         addtoComputations(value: "%")
@@ -96,6 +106,10 @@ class ViewController: UIViewController {
         addtoComputations(value: ".")
     }
     
+    /* Backspace button first checks to see if the computations
+     * are empty or not. If computations variable is empty; nothing
+     * happens. If its not empty, I call the removeLast function.
+     */
     @IBAction func backSpace(_ sender: Any) {
         if(!computations.isEmpty){
             computations.removeLast()

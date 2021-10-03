@@ -309,6 +309,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="plusMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sS8-6e-ezj"/>
+                                                            <action selector="plusTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZUR-d0-1Q4"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wcl-hj-Nki" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
