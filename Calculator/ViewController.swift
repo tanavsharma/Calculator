@@ -28,7 +28,6 @@ class ViewController: UIViewController {
     var function = ""
     var userInput = ""
     var results = 0.0
-    var percentOne = 100.00
     var firstInput = 0.0
     var secondInput = 0.0
     
@@ -58,8 +57,8 @@ class ViewController: UIViewController {
             let alert = UIAlertController(title: "Number Limit Reached", message: "You have reached the limit of numbers. Would you like to clear?", preferredStyle: .alert)
 
             alert.addAction(UIAlertAction(title: "Clear Calculator", style: .default, handler:{ action in
-                self.computations = "0.0"
-                self.computationsLabel.text = "0.0"
+                self.computations = ""
+                self.computationsLabel.text = ""
                 self.userInput = ""
                 self.resultsLabel.text = ""
                                           }))
