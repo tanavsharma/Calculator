@@ -30,6 +30,8 @@ class ViewController: UIViewController {
     var results = 0.0
     var firstInput = 0.0
     var secondInput = 0.0
+    var f1Input = 0
+    var f1Results = 0
     
     
     override func viewDidLoad() {
@@ -149,6 +151,78 @@ class ViewController: UIViewController {
         userInput = ""
     }
     
+    @IBAction func squareRoot(_ sender: Any) {
+        function = "√"
+        addtoComputations(value: "√")
+        first = userInput
+        userInput = ""
+    }
+    
+    @IBAction func pi(_ sender: Any) {
+        function = "π"
+        addtoComputations(value: "π")
+        first = userInput
+        userInput = ""
+    }
+    
+    @IBAction func sinn(_ sender: Any) {
+        function = "sin"
+        addtoComputations(value: "sin")
+        first = userInput
+        userInput = ""
+    }
+    
+    @IBAction func coss(_ sender: Any) {
+        function = "cos"
+        addtoComputations(value: "cos")
+        first = userInput
+        userInput = ""
+    }
+    
+    @IBAction func tann(_ sender: Any) {
+        function = "tan"
+        addtoComputations(value: "tan")
+        first = userInput
+        userInput = ""
+    }
+    
+    @IBAction func rand(_ sender: Any) {
+        function = "rand"
+        addtoComputations(value: "rand")
+        first = userInput
+        userInput = ""
+    }
+    
+    @IBAction func squared(_ sender: Any) {
+        function = "²"
+        addtoComputations(value: "²")
+        first = userInput
+        userInput = ""
+    }
+    
+    @IBAction func cubed(_ sender: Any) {
+        function = "³"
+        addtoComputations(value: "³")
+        first = userInput
+        userInput = ""
+
+    }
+    
+    @IBAction func exponent(_ sender: Any) {
+        function = "e"
+        addtoComputations(value: "e")
+        first = userInput
+        userInput = ""
+    }
+    
+    @IBAction func absolute(_ sender: Any) {
+        function = "| |"
+        addtoComputations(value: "| |")
+        first = userInput
+        userInput = ""
+    }
+    
+    
     @IBAction func subtract(_ sender: Any) {
         function = "-"
         addtoComputations(value: "-")
@@ -189,6 +263,27 @@ class ViewController: UIViewController {
             firstInput = Double(first)!
             results = firstInput / 100
             resultsLabel.text = String(results)
+        }else if(function == "√"){
+            firstInput = Double(first)!
+            results = sqrt(firstInput)
+            resultsLabel.text = String(results)
+        }else if(function == "π"){
+            firstInput = Double(first)!
+            results = firstInput * 3.141592653589793238462643383279502884197169399375105820974944592307816406286
+            resultsLabel.text = String(results)
+        }else if(function == "sin"){
+            firstInput = Double(first)!
+            results = sin(firstInput)
+            resultsLabel.text = String(results)
+        }else if(function == "cos"){
+            firstInput = Double(first)!
+            results = cos(firstInput)
+            resultsLabel.text = String(results)
+        }else if(function == "tan"){
+            firstInput = Double(first)!
+            results = tan(firstInput)
+            resultsLabel.text = String(results)
+        }else if(){
             
         }
         

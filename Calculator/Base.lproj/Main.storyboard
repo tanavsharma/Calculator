@@ -63,6 +63,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="rand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bvH-C1-SfF"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HP-sS-R3Q" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
                                                         <rect key="frame" x="124" y="0.0" width="116" height="43.333333333333336"/>
@@ -74,6 +77,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="sqrt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LMT-gX-lQj"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCt-Kc-8MN" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
                                                         <rect key="frame" x="248" y="0.0" width="116" height="43.333333333333336"/>
@@ -158,6 +164,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="squared:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rRE-yo-XZ5"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vj-Kb-Lmw" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
                                                         <rect key="frame" x="124" y="0.0" width="116" height="43.333333333333336"/>
@@ -171,6 +180,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="pi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ejw-7s-TPZ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iji-1o-GfM" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
                                                         <rect key="frame" x="248" y="0.0" width="116" height="43.333333333333336"/>
@@ -255,6 +267,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="cubed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="quY-oY-KGQ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1n9-0v-ewD" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
                                                         <rect key="frame" x="124" y="0.0" width="116" height="43.333333333333336"/>
@@ -266,6 +281,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="sin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mrs-av-6cq"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8l-37-aFw" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
                                                         <rect key="frame" x="248" y="0.0" width="116" height="43.333333333333336"/>
@@ -350,6 +368,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="exponent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="36i-VS-enk"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cY4-lO-b5p" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
                                                         <rect key="frame" x="124" y="0.0" width="116" height="43.333333333333336"/>
@@ -361,6 +382,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="cos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RqA-5b-2C9"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUF-5h-YNc" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
                                                         <rect key="frame" x="248" y="0.0" width="116" height="43.333333333333336"/>
@@ -445,6 +469,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="absolute:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b8F-kJ-P9Z"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zs-rT-UuJ" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
                                                         <rect key="frame" x="124" y="0.0" width="116" height="43.333333333333336"/>
@@ -456,6 +483,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="tan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8KO-5m-k3f"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uB-VN-PUb" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
                                                         <rect key="frame" x="248" y="0.0" width="116" height="43.333333333333336"/>
@@ -529,10 +559,25 @@
                                                 </variation>
                                             </stackView>
                                         </subviews>
+                                        <variation key="heightClass=compact-widthClass=compact">
+                                            <mask key="subviews">
+                                                <include reference="Cao-FO-FTa"/>
+                                                <include reference="bHc-47-M97"/>
+                                                <include reference="feJ-hP-zwF"/>
+                                                <include reference="L2o-Rh-JTQ"/>
+                                                <include reference="CbM-PW-Gks"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.16862745100000001" green="0.1764705882" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <directionalEdgeInsets key="directionalLayoutMargins" top="10" leading="10" bottom="10" trailing="10"/>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="WOM-Yq-oGU"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -547,13 +592,9 @@
                             <constraint firstItem="4AD-Tj-ZO3" firstAttribute="top" secondItem="ev6-Y8-F0x" secondAttribute="bottom" id="lFf-gZ-FBz"/>
                             <constraint firstItem="ev6-Y8-F0x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wvc-PN-nqv"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="4AD-Tj-ZO3"/>
-                            </mask>
-                        </variation>
                         <variation key="heightClass=compact-widthClass=compact">
                             <mask key="subviews">
+                                <include reference="ev6-Y8-F0x"/>
                                 <include reference="4AD-Tj-ZO3"/>
                             </mask>
                         </variation>
