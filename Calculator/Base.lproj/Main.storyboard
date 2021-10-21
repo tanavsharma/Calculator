@@ -470,7 +470,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="absolute:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b8F-kJ-P9Z"/>
+                                                            <action selector="factorial:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PDa-Fq-Wym"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zs-rT-UuJ" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">

@@ -30,8 +30,9 @@ class ViewController: UIViewController {
     var results = 0.0
     var firstInput = 0.0
     var secondInput = 0.0
-    var f1Input = 0
-    var f1Results = 0
+    var compareFactorial = 0
+    var factorialResult = 0
+    var factorialNumber: UInt =  1
     
     
     override func viewDidLoad() {
@@ -215,9 +216,10 @@ class ViewController: UIViewController {
         userInput = ""
     }
     
-    @IBAction func absolute(_ sender: Any) {
-        function = "| |"
-        addtoComputations(value: "| |")
+
+    @IBAction func factorial(_ sender: Any) {
+        function = "!"
+        addtoComputations(value: "!")
         first = userInput
         userInput = ""
     }
@@ -263,28 +265,64 @@ class ViewController: UIViewController {
             firstInput = Double(first)!
             results = firstInput / 100
             resultsLabel.text = String(results)
+            
         }else if(function == "√"){
             firstInput = Double(first)!
             results = sqrt(firstInput)
             resultsLabel.text = String(results)
+            
         }else if(function == "π"){
             firstInput = Double(first)!
             results = firstInput * 3.141592653589793238462643383279502884197169399375105820974944592307816406286
             resultsLabel.text = String(results)
+        
         }else if(function == "sin"){
             firstInput = Double(first)!
             results = sin(firstInput)
             resultsLabel.text = String(results)
+        
         }else if(function == "cos"){
             firstInput = Double(first)!
             results = cos(firstInput)
             resultsLabel.text = String(results)
+        
         }else if(function == "tan"){
             firstInput = Double(first)!
             results = tan(firstInput)
             resultsLabel.text = String(results)
-        }else if(){
+       
+        }else if(function == "rand"){
+            firstInput = Double(first)!
+            results = Double.random(in: 0...firstInput)
+            resultsLabel.text = String(results)
+        
+        }else if(function == "²"){
+            firstInput = Double(first)!
+            results = pow(firstInput, 2)
+            resultsLabel.text = String(results)
+        
+        }else if(function == "³"){
+            firstInput = Double(first)!
+            results = pow(firstInput, 3)
+            resultsLabel.text = String(results)
+       
+        }else if(function == "e"){
+            firstInput = Double(first)!
+            results = pow(2.71828, firstInput)
+            resultsLabel.text = String(results)
+        
+        }else if(function == "!"){
+            firstInput = Double(first)!
+            var product: UInt = 1
             
+            if firstInput == 0{
+                resultsLabel.text = String("1")
+            }
+            for i in 1...UInt(firstInput){
+                product = product * i
+                print("r = ", product)
+            }
+            resultsLabel.text = String(product)
         }
         
         
