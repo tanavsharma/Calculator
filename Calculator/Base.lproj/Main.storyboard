@@ -78,7 +78,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="sqrt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LMT-gX-lQj"/>
+                                                            <action selector="squareRoot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dte-jC-U0w"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCt-Kc-8MN" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
@@ -282,7 +282,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="sin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mrs-av-6cq"/>
+                                                            <action selector="sinn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zIw-up-MuK"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8l-37-aFw" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
@@ -383,7 +383,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="cos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RqA-5b-2C9"/>
+                                                            <action selector="coss:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6ps-nc-w5a"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUF-5h-YNc" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
@@ -484,7 +484,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundedRectangle" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="tan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8KO-5m-k3f"/>
+                                                            <action selector="tann:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hr1-pF-gJD"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uB-VN-PUb" customClass="RoundedButton" customModule="Calculator" customModuleProvider="target">
